@@ -1,0 +1,48 @@
+.barranav {
+    background-color: rgb(182, 255, 255);
+    left: 0;
+    padding: 15px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+
+a {
+    text-decoration: none;
+    color:#09ff00;
+}
+
+a:hover {
+    color:rgb(255, 238, 0);
+}
+
+.seccion1 {
+    margin:auto;
+    background-color: rgb(179, 1, 255);
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    max-width: 1100px;
+    z-index: -1;
+}
+
+h1 {
+    margin-top: 70px;
+    font-family: "Gochi Hand", cursive;
+    font-weight: 1000;
+    font-style: normal;
+    color: rgb(236, 158, 255);
+}
+
+h2 {
+    font-family: "Gochi Hand", cursive;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    color: rgb(143, 255, 105);
+}
