@@ -13,7 +13,7 @@ nav {
 
 a {
     font-family: "Gochi Hand";
-     font-style: oblique;
+    font-style: oblique;
     text-decoration: none;
     color:#09ff00;
 }
@@ -21,32 +21,40 @@ a {
 a:hover {
     color:rgb(255, 238, 0);
 }
+.hola {
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(rgb(162, 0, 255),rgb(117, 101, 255),rgb(2, 255, 179));
+}
 
 .seccion1 {
-    margin:auto;
-    background: linear-gradient(rgb(162, 0, 255),rgb(117, 101, 255),rgb(2, 255, 179));
+    margin: 50px auto;
     left: 0;
-    padding: 15px;
-    position: absolute;
     text-align: center;
     top: 0;
     width: 100%;
-    max-width: 1100px;
     z-index: -1;
 }
 
-h1 {
-    margin-top: 70px;
+.seccion1 h1 {
     font-family: "Gochi Hand", cursive;
     font-weight: 1000;
     font-style: normal;
     color: rgb(236, 158, 255);
 }
 
-h2 {
+.seccion1 h2 {
     font-family: "Gochi Hand", cursive;
     font-weight: 700;
     font-style: normal;
     text-align: left;
     color: rgb(143, 255, 105);
 }
+
+.ben {
+      margin: 1000px auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
