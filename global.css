@@ -24,9 +24,12 @@ a:hover {
 
 .seccion1 {
     background: linear-gradient(rgb(162, 0, 255),rgb(117, 101, 255),rgb(2, 255, 179));
-    margin: 50px auto;
+    margin: auto;
+    margin-top: 70px;
     left: 0;
+    border: none;
     text-align: center;
+    border-bottom: 1px solid black;
     top: 0;
     width: 100%;
     z-index: -1;
@@ -47,14 +50,41 @@ a:hover {
     color: rgb(143, 255, 105);
 }
 
+.bloc {
+    background-color: aqua;
+    left:0;
+    width: 100%;
+    border: none;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.bloc h3 {
+    font-family: "Gochi Hand", cursive;
+    color: blueviolet;
+}
+.bloc p {
+    font-family: "Gochi Hand", cursive;
+    color:blue
+}
+
+.bloc span {
+    font-family: "Gochi Hand", cursive;
+    color: orchid
+}
+
 .ben {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      border: none;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
       background: linear-gradient(aquamarine, rgb(0, 145, 120));
     }
 footer {
-    background: radial-gradient(rgb(255, 255, 255),rgb(196, 197, 196));
+    background: linear-gradient(rgb(98, 255, 229),rgb(255, 255, 255));
     left: 0;
     padding: 1px;
     text-align: center;
@@ -64,4 +94,6 @@ footer {
     font-style: oblique;
     text-decoration: none;
     color:#ff9900;
+    border: none;
+    border-top: 1px solid black;
 }
