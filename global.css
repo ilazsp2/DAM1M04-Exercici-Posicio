@@ -124,6 +124,38 @@ a:hover {
     
 }
 
+.gridlay {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  height: 300px;
+  width: 100%;
+}
+
+.gridlay > .box {
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-width: 0;
+  min-height: 48px;
+  padding: 12px;
+  background-color: black;
+  border: 1px solid #b5c3d7;
+  color: #17263c;
+  font-family: "Gochi Hand", cursive;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.box h2 {
+    color:#09ff00
+}
+
+.box p {
+    text-align: left;
+    color:aquamarine;
+}
+
 footer {
     background: linear-gradient(rgb(98, 255, 229),rgb(255, 255, 255));
     left: 0;
