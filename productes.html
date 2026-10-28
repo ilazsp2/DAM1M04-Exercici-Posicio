@@ -7,6 +7,28 @@
         <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="global.css">
         <title>Productes</title>
+        <style>
+            .filtres {
+                background: linear-gradient(rgb(2, 255, 179), rgb(2, 255, 179),rgb(117, 101, 255));
+                margin: auto;
+                left: 0;
+                border: none;
+                text-align: center;
+                border-bottom: 1px solid black;
+                border-top: 1px solid black;
+                top: 0;
+                width: 100%;
+            }
+            .filtres p {
+                font-family: "Gochi Hand", cursive;
+                font-size: 30px;
+                color:rgb(247, 0, 255)
+            }
+            .filtres span {
+                font-family: "Gochi Hand", cursive;
+                color:rgb(255, 71, 71)
+            }
+        </style>
     </head>
     <body>
         <nav>
@@ -16,7 +38,39 @@
             &nbsp;|&nbsp;
             <a href="contacte.html">Contacte</a>
         </nav>
-        <h1 class="sep">Nuestros productos </h1>
+        <div class="seccion1">
+            <h1>Nuestros productos </h1>
+        </div>
+        <div class="filtres">
+            <p>Filtres</p>
+            <span>Novedades</span>
+            &nbsp;/&nbsp;
+            <span>Precio</span>
+            &nbsp;/&nbsp;
+            <span>Popularidad</span>
+        </div>
+        <div class="targetas">
+            <div class="element">
+                <img src="img/ralsei_plush.jpg" width="200">
+                <h2>Peluche ralsei</h2>
+                <p>30 euros</p>
+            </div>
+            <div class="element">
+                <img src="img/koma.jpg" width="200">
+                <h2>Peluche Komasan</h2>
+                <p>25 euros</p>
+            </div>
+            <div class="element">
+                <img src="img/goat.jpg" width="200">
+                <h2>Peluche cabra</h2>
+                <p>35 euros</p>
+            </div>
+            <div class="element">
+                <img src="img/ogergod.jpg" width="200">
+                <h2>Peluche pokemon</h2>
+                <p>30 euros</p>
+            </div>
+        </div>
         <footer>
             <p>@Ivan Lahoz 2026</p>
         </footer>
